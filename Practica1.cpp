@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 #include <array>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
@@ -127,5 +129,12 @@ int main(){
 	//cout << MCD(a,determinarMenor(a),1,1,tam) << endl;
 	cout << fibonacci(0,1,7,0)  << endl;
 	cout << "Fin del programa" << endl;
+	srand((int)time(0));
+	int i=0;
+	while(i++ < 10){
+		int r = (rand() % 100) + 1;
+		cout << r << " ";
+	}
+	cout << endl;
 
 }
