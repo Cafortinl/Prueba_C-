@@ -126,5 +126,6 @@ int main(){
 	//cout << tam << endl;
 	//cout << MCD(a,determinarMenor(a),1,1,tam) << endl;
 	cout << fibonacci(0,1,7,0)  << endl;
+	cout << "Fin del programa" << endl;
 
 }
